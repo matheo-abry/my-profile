@@ -1,0 +1,111 @@
+body {
+background-color: #F1E9DB;
+color: #07020D;
+text-decoration: none;
+font-family: 'Big Shoulders Stencil Display', cursive;
+font-weight: 600;
+}
+
+
+p{
+	color: #566e3d;
+}
+
+li{
+	color: #566e3d;
+}
+
+h1 { 
+	font-size: 30px;
+	font-weight: bolder;
+	letter-spacing: 2px
+}
+
+h2 {
+
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+a{
+	font-weight: bold;
+	font-size: 16px;
+	color: #f18f01;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d36582;
+}
+
+.main-container { width: 800px;
+	margin:0px auto; 
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .main-container {
+    width: 500px;
+  }
+}
+
+.cards { 
+	background: #FEF5EF; 
+	text-align: center;
+	padding: 30px;
+	margin: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 15px;
+}
+
+img {
+	border-radius: 50%;
+
+}
+
+.img-center { 
+width: 300px
+
+ }
+
+.button { 
+	background: #f18f01;
+	color: #FEF5EF;
+	margin: 15px;
+	font-size: 16px;
+	padding: 10px 15px;
+	border-radius: 15px;
+ }
+
+ .button:hover {
+ 	background: #d36582;
+ 	color: #FEF5EF;
+ }
+
+.sports-text-center {
+	list-style: none;
+	padding-left: 0px;
+}
+
+ .list-inline {
+ 	list-style: none;
+ 	padding-left: 0px;
+ }
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i { 
+	font-size: 50px;
+	padding:30px 50px;
+ }
+
+#hello p {
+	margin-bottom: 25px;
+}
